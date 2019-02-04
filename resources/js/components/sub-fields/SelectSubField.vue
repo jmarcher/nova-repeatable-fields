@@ -11,7 +11,6 @@
                 value=""
                 v-text="placeholder"
                 selected
-                disabled
             ></option>
             <option
                 v-for="(label, name) in subField.options"
